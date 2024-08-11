@@ -21,9 +21,9 @@ Using latest paypal apis so without wasting further more time let's jump into it
 ***Paypal payment examples:*
 
 ![](https://raw.githubusercontent.com/code-Shabbir/paypal_payment_example/master/paypal_order_1.webp)
-&nbsp;&nbsp;&nbsp;&nbsp;
-![](https://raw.githubusercontent.com/code-Shabbir/paypal_payment_example/master/paypal_order_2.webp)&nbsp;&nbsp;&nbsp;&nbsp;
-![](https://raw.githubusercontent.com/code-Shabbir/paypal_payment_example/master/paypal_subscription_1.webp)&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](https://raw.githubusercontent.com/code-Shabbir/paypal_payment_example/master/paypal_order_2.webp)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](https://raw.githubusercontent.com/code-Shabbir/paypal_payment_example/master/paypal_subscription_1.webp)<br>
 ![](https://raw.githubusercontent.com/code-Shabbir/paypal_payment_example/master/paypal_subscription_2.webp)
 
 <br>
