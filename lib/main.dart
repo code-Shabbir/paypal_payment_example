@@ -1,9 +1,6 @@
-import 'package:paypal_payment/core/services/constant/enum.dart';
-import 'package:paypal_payment/core/services/paypal_order_service.dart';
-import 'package:paypal_payment/views/paypal_order_payment.dart';
-import 'package:paypal_payment/views/paypal_subscription_payment.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:paypal_payment/paypal_payment.dart';
 
 class PaypalPaymentExample extends StatefulWidget {
   const PaypalPaymentExample({super.key});
@@ -31,7 +28,7 @@ class _PaypalPaymentExampleState extends State<PaypalPaymentExample> {
 
   // only for web
   checkForCallback() async {
-    final response = await PaypalOrderService.captureOrder(
+    await PaypalOrderService.captureOrder(
         "v2/checkout/orders/${Uri.base.queryParameters['PayerID']}/capture",
         clientId: clientId,
         sandboxMode: true,
@@ -82,7 +79,7 @@ class _PaypalPaymentExampleState extends State<PaypalPaymentExample> {
                             clientId: clientId,
                             secretKey: secretKey,
                             productName: 'T-Shirt',
-                            type: PRODUCT_TYPE.PHYSICAL.name,
+                            type: "PHYSICAL",
                             planName: 'T-shirt plan',
                             billingCycles: [
                               {
