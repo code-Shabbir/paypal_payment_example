@@ -39,9 +39,9 @@ class _PaypalPaymentExampleState extends State<PaypalPaymentExample> {
   }
 
   // Listen for callbacks for device not for web
-  onSuccessCallback(value) => print("Paypal success callback $value");
-  onErrorCallback(error) => print("Paypal error callback $error");
-  onCancelCallback() => print("Paypal cancel callback");
+  onSuccessCallback(value) => {}; // print("Paypal success callback $value");
+  onErrorCallback(error) => {}; // print("Paypal error callback $error");
+  onCancelCallback() => {}; // print("Paypal cancel callback");
 
   @override
   Widget build(BuildContext context) {
@@ -92,8 +92,8 @@ class _PaypalPaymentExampleState extends State<PaypalPaymentExample> {
                                     'value': amount
                                   }
                                 },
-                                'frequency': {
-                                  "interval_unit": INTERVALUNIT.MONTH.name,
+                                'frequency': const {
+                                  "interval_unit": "MONTH",
                                   "interval_count": 1
                                 }
                               }

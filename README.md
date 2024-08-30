@@ -101,7 +101,7 @@ To install the PayPal Payment Package, follow these steps
                             clientId: clientId,
                             secretKey: secretKey,
                             productName: 'T-Shirt',
-                            type: PRODUCT_TYPE.PHYSICAL.name,
+                            type: "PHYSICAL",
                             planName: 'T-shirt plan',
                             billingCycles: [
                               {
@@ -115,7 +115,7 @@ To install the PayPal Payment Package, follow these steps
                                   }
                                 },
                                 'frequency': {
-                                  "interval_unit": INTERVALUNIT.MONTH.name,
+                                  "interval_unit": "MONTH",
                                   "interval_count": 1
                                 }
                               }
